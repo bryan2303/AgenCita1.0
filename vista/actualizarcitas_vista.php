@@ -54,7 +54,7 @@ if(!$pacientes)
 						<?php echo "<option value='". $Sql['mednombres']. "'>". $Sql['mednombres']." ". $Sql['medapellidos']. "</option>"; ?>
 					<?php endforeach; ?>
 				</select>
-				<label>Consultorio:</label>
+				<label>Consultorio</label>
 				<select name="citConsultorio" class="mayusculas" required> 
 					<?php foreach ($consultorios as $Sql2): ?>
 						<?php echo "<option value='". $Sql2['conNombre']. "'>". $Sql2['conNombre']."</option>"; ?>
